@@ -1,1 +1,1 @@
-# cp
+I am solving the SDE sheet...I have added all the Question and problem links in solution you can read problem from link and then you can understand the sollution if you want to solve them I am adding link : https://docs.google.com/document/d/1PlkpmiMuv0lwTUW5ARvraAb-2-CbE5eVTkqLPqqHkoM/edit
