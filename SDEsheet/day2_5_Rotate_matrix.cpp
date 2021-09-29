@@ -3,6 +3,7 @@
 //DO NOT allocate another 2D matrix and do the rotation.
 
 //problem link: https://leetcode.com/problems/rotate-image/
+
 #include <bits/stdc++.h>
 using namespace std;
 class Solution
@@ -26,3 +27,5 @@ public:
         }
     }
 };
+
+//other approch was to take 1 more matrix...take 1st row and put in last coloums and go on but it will take O(n**2) extra space
