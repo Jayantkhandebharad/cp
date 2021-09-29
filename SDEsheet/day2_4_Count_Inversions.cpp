@@ -30,3 +30,5 @@ int main()
     }
     cout << a << endl;
 }
+
+//merge sort techinique is preferred
