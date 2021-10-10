@@ -48,3 +48,26 @@ public:
         return max_val;
     }
 };
+
+int main()
+{
+    int T;
+    cin >> T;
+    int M[MAX][MAX];
+
+    while (T--)
+    {
+        int n, m;
+        cin >> n >> m;
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < m; j++)
+            {
+                cin >> M[i][j];
+            }
+        }
+        Solution obj;
+        obj.maxArea(M, n, m);
+    }
+    return 0;
+}
