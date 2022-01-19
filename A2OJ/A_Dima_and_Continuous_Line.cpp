@@ -15,11 +15,12 @@ int main()
         cout << "no" << endl;
         return 0;
     }
-    for (int i = 3; i < n; i++)
+    for (int i = 0; i < n - 1; ++i)
     {
-        for (int j = i - 2; j >= 0; j--)
+        for (int j = 0; j < n - 1; ++j)
         {
-            if ((a[i] > a[j] and a[i - 1] < a[j]) || (a[i] < a[j] and a[i - 1] > a[j]))
+            if ((min(a[i], a[i + 1]) < min(a[j], a[j + 1]) && min(a[j], a[j + 1]) < max(a[i], a[i + 1]) && max(a[i], a[i + 1]) < max(a[j], a[j + 1])) ||
+                (min(a[j], a[j + 1]) < min(a[i], a[i + 1]) && min(a[i], a[i + 1]) < max(a[j], a[j + 1]) && max(a[j], a[j + 1]) < max(a[i], a[i + 1])))
             {
                 cout << "yes" << endl;
                 return 0;
