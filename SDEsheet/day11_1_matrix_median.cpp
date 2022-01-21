@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+class Solution
+{
+    int findMedian(vector<vector<int>> &A);
+};
+
 int f(int a, vector<int> &x, int n12) //<=x calculator
 {
     int high = x.size() - 1;
