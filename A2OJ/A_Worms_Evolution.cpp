@@ -5,6 +5,9 @@ memory limit per test256 megabytes
 inputstandard input
 outputstandard output
 Professor Vasechkin is studying evolution of worms. Recently he put forward hypotheses that all worms evolve by division. There are n forms of worms. Worms of these forms have lengths a1, a2, ..., an. To prove his theory, professor needs to find 3 different forms that the length of the first form is equal to sum of lengths of the other two forms. Help him to do this.
+
+
+
 */
 #include <bits/stdc++.h>
 using namespace std;
