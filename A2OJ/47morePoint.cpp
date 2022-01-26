@@ -8,6 +8,9 @@ int points(int p, int t)
     return max(s, r);
 }
 
+
+//abcd
+
 int main()
 {
     int a, b, c, d;
