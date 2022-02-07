@@ -3,26 +3,54 @@ using namespace std;
 
 int main()
 {
-    int n, a, i, sum, odd, min_odd;
-    while (cin >> n)
+    int t, n, a, i, sum, e = 0, o = 0, r, c;
+    cin >> t;
+    for (int i = 0; i < t; i++)
     {
-        sum = 0;
-        odd = 0;
-        min_odd = INT_MAX;
-        for (i = 0; i < n; i++)
+        cin >> r >> c;
+
+        if (c == 1)
         {
-            cin >> a;
-            sum += a;
-            if (a % 2)
-                odd++;
-            if (a % 2 && a < min_odd)
-                min_odd = a;
+            cout << "YES" << endl;
+            for (int j = 1; j < r + 1; j++)
+            {
+                cout << j << endl;
+            }
+            continue;
         }
-        if (odd && odd % 2 == 0)
-            sum -= min_odd;
-        else if (!odd)
-            sum = 0;
-        cout << sum << endl;
+        else if (r % 2)
+        {
+            cout << "NO" << endl;
+            continue;
+        }
+        cout << "YES" << endl;
+        for (int j = 1; j < c * r; j += 2)
+        {
+            int l = 0;
+
+            while (l < c)
+            {
+                cout << j << " ";
+                l++;
+                j += 2;
+            }
+            j -= 2;
+            cout << endl;
+        }
+
+        for (int j = 2; j < c * r; j += 2)
+        {
+            int l = 0;
+
+            while (l < c)
+            {
+                cout << j << " ";
+                l++;
+                j += 2;
+            }
+            j -= 2;
+            cout << endl;
+        }
     }
     return 0;
 }
