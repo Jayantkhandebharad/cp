@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../SDEsheet"
+		},
+		{
+			"name": "leetcode",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"vector": "cpp"
+		}
+	}
+}
