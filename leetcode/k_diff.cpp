@@ -1,43 +1,34 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
+#define int long long
 
 void solve()
 {
     int n, k;
     cin >> n >> k;
-    if (k == n * (n + 1) / 2)
+    vector<int> ans;
+    k = k - n;
+    int count = 0;
+    while (k >= count)
     {
-        for (int i = 1; i < n + 1; i++)
-        {
-            cout << i << " ";
-        }
-        cout << endl;
-        return;
-    }
-    int x = k - n + 1;
-    int ll = x;
-    if (n % x)
-    {
-        x = n / x + 1;
-    }
-    else
-    {
-        x = n / x;
+        ans.push_back(count + 1);
+        k -= count;
+        k++;
     }
 
-    int j = 0;
-    while (j < ll)
+    while ((int)(ans.size()) < n)
     {
-        for (int i = x * j; i < x * (j + 1) and i < n; i++)
-        {
-            cout << j + 1 << " ";
-        }
-        j++;
+        ans.push_back(count - k);
+    }
+    for (auto i : ans)
+    {
+        cout << i << " ";
     }
     cout << endl;
+    return;
 }
-int main()
+int32_t main()
 {
     // your code goes here
     int t;
