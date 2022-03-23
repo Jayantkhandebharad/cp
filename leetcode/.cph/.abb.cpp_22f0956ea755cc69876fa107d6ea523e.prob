@@ -1,0 +1,1 @@
+{"name":"Local: abb","url":"/home/jayant/Documents/competative/cp/leetcode/abb.cpp","tests":[{"id":1648046548989,"input":"3\n1\n2\n3","output":"-1\n1\n-2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/jayant/Documents/competative/cp/leetcode/abb.cpp","group":"local","local":true}

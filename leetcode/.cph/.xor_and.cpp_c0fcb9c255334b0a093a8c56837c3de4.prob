@@ -1,0 +1,1 @@
+{"name":"Local: xor_and","url":"/home/jayant/Documents/competative/cp/leetcode/xor_and.cpp","tests":[{"id":1648050779671,"input":"3\n4\n1 1 2 3\n4\n1 2 3 4\n2\n1 8","output":"2\n1\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/jayant/Documents/competative/cp/leetcode/xor_and.cpp","group":"local","local":true}

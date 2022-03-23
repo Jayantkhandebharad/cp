@@ -1,0 +1,1 @@
+{"name":"Local: bit1","url":"/home/jayant/Documents/competative/cp/leetcode/bit1.cpp","tests":[{"id":1648047733546,"input":"4\n2\n3\n4\n8","output":"0\n1\n1\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/jayant/Documents/competative/cp/leetcode/bit1.cpp","group":"local","local":true}
