@@ -1,0 +1,1 @@
+{"name":"Local: missing_number_l","url":"/home/jayant/Documents/competative/cp/Pleetcode/missing_number_l.cpp","tests":[{"id":1648272212891,"input":"2\n-1 0 17 72\n1 4 5 6","output":"8 9\n-1 -1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/jayant/Documents/competative/cp/Pleetcode/missing_number_l.cpp","group":"local","local":true}
