@@ -1,0 +1,1 @@
+{"name":"Local: flipsort","url":"/home/jayant/Documents/competative/cp/leetcode/flipsort.cpp","tests":[{"id":1648651694261,"input":"3\n6\n110111\n9\n110110111\n5\n00111","output":"1\n1 2\n2\n1 2\n4 3\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/jayant/Documents/competative/cp/leetcode/flipsort.cpp","group":"local","local":true}

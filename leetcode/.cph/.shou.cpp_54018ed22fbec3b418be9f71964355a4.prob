@@ -1,0 +1,1 @@
+{"name":"Local: shou","url":"/home/jayant/Documents/competative/cp/leetcode/shou.cpp","tests":[{"id":1648650866508,"input":"3\n2 4\n6 0\n4 3","output":"2\n12\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/jayant/Documents/competative/cp/leetcode/shou.cpp","group":"local","local":true}
