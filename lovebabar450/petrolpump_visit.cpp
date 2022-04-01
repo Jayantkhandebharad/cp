@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+struct petrolPump
+{
+    int petrol;
+    int distance;
+};
 class Solution
 {
 public:
