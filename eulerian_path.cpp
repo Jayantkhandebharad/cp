@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-class
 
-    class Solution
+class Solution
 {
 public:
     int eulerPath(int N, vector<vector<int>> graph)
