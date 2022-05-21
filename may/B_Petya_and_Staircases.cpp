@@ -1,3 +1,4 @@
+//157868298	May/21/2022 12:08UTC+5.5	jayantkhd	362B - Petya and Staircases	GNU C++14	
 #include<bits/stdc++.h>
 using namespace std;
 
