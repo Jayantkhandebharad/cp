@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/shortest-bridge/
+
 #include<bits/stdc++.h>
 using namespace std;
 
