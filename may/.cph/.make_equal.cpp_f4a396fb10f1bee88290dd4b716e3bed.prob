@@ -1,0 +1,1 @@
+{"name":"Local: make_equal","url":"/home/jayu/Documents/cp/may/make_equal.cpp","tests":[{"id":1654095681839,"input":"5\n3 4\n5 5\n7 3\n5 2\n7 12","output":"1\n0\n2\n3\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/jayu/Documents/cp/may/make_equal.cpp","group":"local","local":true}

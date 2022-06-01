@@ -1,0 +1,1 @@
+{"name":"Local: parity_11","url":"/home/jayu/Documents/cp/may/parity_11.cpp","tests":[{"id":1654096505449,"input":"4\n1 0\n2 0\n2 1\n3 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/jayu/Documents/cp/may/parity_11.cpp","group":"local","local":true}

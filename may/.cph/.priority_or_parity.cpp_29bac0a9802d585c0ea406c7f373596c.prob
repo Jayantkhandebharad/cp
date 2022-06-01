@@ -1,0 +1,1 @@
+{"name":"Local: priority_or_parity","url":"/home/jayu/Documents/cp/may/priority_or_parity.cpp","tests":[{"id":1654097181514,"input":"4\n4 1\n3 3\n9 1\n3489601027782 8104267","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/jayu/Documents/cp/may/priority_or_parity.cpp","group":"local","local":true}

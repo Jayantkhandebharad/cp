@@ -1,0 +1,1 @@
+{"name":"Local: time_penalty","url":"/home/jayu/Documents/cp/may/time_penalty.cpp","tests":[{"id":1654094146467,"input":"4\n5 10 2 12\n10 30 15 15\n20 8 4 20\n6 6 6 6\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/jayu/Documents/cp/may/time_penalty.cpp","group":"local","local":true}
