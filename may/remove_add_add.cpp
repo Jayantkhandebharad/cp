@@ -23,6 +23,8 @@ void solve(){
         mp[v[i]]=i;
 
     }
+
+    
     if(mp1[v[0]]==n){
         cout<<n-1<<endl;
         return;
